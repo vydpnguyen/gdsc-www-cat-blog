@@ -1,0 +1,90 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header ul {
+	display: table;
+	width: 100%;
+    margin: 0;
+    background-color: black;
+    padding: 20px 0;
+}
+
+header li {
+    display: table-cell;
+    text-align: center;
+}
+
+header li a {
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+body main {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+header h1, footer, section figure {
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.title img {
+    height: 80px;
+    padding-top: 40px;
+}
+
+header h1 {
+    font-size: 60px;
+    padding: 0 0;
+}
+
+main h2 {
+    font-size: 25px;
+    font-style: bold;
+}
+
+figure img {
+    height: 300px;
+    border-radius: 15px;
+}
+
+#second-image {
+    height: 300px;
+    border-radius: 100%;
+}
+
+footer {
+    background-color: black;
+    padding: 10px 0;
+}
+
+footer p {
+    color: antiquewhite;
+}
+
+.photos {
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+}
+
+@media (max-width: 768px) {
+    .photos {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;  
+    }
+}
