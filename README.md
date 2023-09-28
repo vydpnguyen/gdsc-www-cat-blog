@@ -1,8 +1,9 @@
 # GDSC Website Workshop Wednesday - Calico Cats Blog
 
 ## About
-This is a project demonstrating HTML/CSS in University of the Pacific's Fall 2023 Website Wednesday Workshop on 9/27/2023.
+This is a project demonstrating HTML/CSS in Google Developer Student Club's Website Wednesday Workshop, at University of the Pacific on 9/27/2023.
 In this workshop, I walked through the fundamentals of creating web pages using HTML/CSS to our members, and guiding them to create their own blogs.
+
 
 ![Calico cats blog](./cat-blog-1.png)
 
@@ -24,22 +25,21 @@ HTML stands for Hyper Text Markup Language. It is the foundation of web developm
 ### HTML Structure
 HTML documents have a structured layout that includes elements like:
 
-<header>: For the logo, site title, or navigation menu.
-<nav>: To include navigation links to different sections of the website.
-<main>: For the primary content of the webpage.
-<footer>: To include contact info, copyright info, and social media links.
-<article>: For holding contents such as blogs and articles.
-<figure>: Used for images, videos, and illustrations.
-<div>: A general container to group elements together.
-You'll also encounter simple tags like <p> (paragraph), <h1> (header), <a> (hyperlink), and <img> (image).
+- header: For the logo, site title, or navigation menu.
+- nav: To include navigation links to different sections of the website.
+- main: For the primary content of the webpage.
+- footer: To include contact info, copyright info, and social media links.
+- article: For holding contents such as blogs and articles.
+- figure: Used for images, videos, and illustrations.
+- div: A general container to group elements together.
+You'll also encounter simple tags like p (paragraph), h1 (header), a (hyperlink), and img (image).
 
 ### Simple Tags
-<a> - Hyperlink Tag
-The <a> tag is used to embed links. It has an href attribute that defines the link's destination. For example:
-<a href="https://www.example.com">Visit Example Website</a>
-<img> - Image Tag
-The <img> tag is used to embed images into web pages. It has attributes like src (source) and alt (alternate text for accessibility). Always include alt for accessibility.
-<img src="image.jpg" alt="Description of the image">
+a - Hyperlink Tag
+The a tag is used to embed links. It has an href attribute that defines the link's destination. For example:
+
+img - Image Tag
+The img tag is used to embed images into web pages. It has attributes like src (source) and alt (alternate text for accessibility). Always include alt for accessibility.
 
 ## Cascading Style Sheets (CSS)
 CSS (Cascading Style Sheets) is used for styling and presentation of web content. It complements HTML, which provides the structure of web pages.
@@ -47,19 +47,20 @@ CSS (Cascading Style Sheets) is used for styling and presentation of web content
 ### What is CSS?
 CSS uses rules to define how HTML elements should be displayed. A CSS rule consists of:
 
-Selector: The element you want to style.
+*Selector:* The element you want to style.
+
 Declaration Block: Contains styling rules separated by semicolons.
+
 Declaration: A name-value pair declaring a style.
 
-Class Selector: To select elements with a specific class, use a period (.) followed by the class name.
+*Class Selector:* To select elements with a specific class, use a period (.) followed by the class name.
 
-Id Selector: To select elements with a specific id, use a hash (#) followed by the id name.
+*Id Selector:* To select elements with a specific id, use a hash (#) followed by the id name.
 
 ### Text Styling
-CSS allows you to style text elements with properties like color (text color), font-family (font selection), font-size (text size), font-style (italic or normal), and font-weight (text boldness).
+CSS allows you to style text elements with properties like *color* (text color), *font-family* (font selection), *font-size* (text size), *font-style* (italic or normal), and *font-weight* (text boldness).
 
-Text Layout
-You can control text alignment with the text-align property, which can have values like center, left, right, or justify.
+*Text Layout:* You can control text alignment with the text-align property, which can have values like center, left, right, or justify.
 
 Now, it's time to add styling to your animal blog! Practice what you've learned by applying CSS to your HTML structure.
 
